@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 3px 3px 5px #222;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
+.container h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container span {
+  color: salmon;
+}
+
+.container p {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container button {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  
+  background-color: #eee;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.container button:active {
+  background-color: aliceblue;
+}
